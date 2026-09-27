@@ -1,0 +1,6 @@
+[settings]
+python.github_attestations = false
+[deploy]
+startCommand = "python bot.py"
+restartPolicyType = "on-failure"
+numReplicas = 1  # Force single instance
